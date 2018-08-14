@@ -10,7 +10,7 @@ class Pages extends Component {
 		return(
 				<Switch>
 					<Route exact path='/' component={Splash}/>
-					<Route path='/quiz' component={Quiz}/>
+					<Route path='/quiz/:q' component={Quiz}/>
 					<Route path='/stats' component={Stats}/>
 				</Switch>
 		)

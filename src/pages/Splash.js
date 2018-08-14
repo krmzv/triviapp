@@ -16,16 +16,16 @@ const Splash = (props) => {
       <div className='mode'>
       <span>Choose a mode:</span>
           <div className='btn-container'>
-            <Link to='/quiz'>
+            <Link to='/quiz/1'>
               <Button
                 onClick={() => setMode('easy')}
-                cn='btn btn__mode btn__mode--easy'
+                className='btn btn__mode btn__mode--easy'
                 text='Easy'/>
             </Link>
-            <Link to='/quiz'>
+            <Link to='/quiz/1'>
               <Button
                 onClick={() => setMode('hard')}
-                cn='btn btn__mode btn__mode--hard'
+                className='btn btn__mode btn__mode--hard'
                 text='Hard'/>
             </Link>
           </div>

@@ -24,3 +24,20 @@
 	background-color: black;
 	color: white;
 }
+
+.btn__answer{
+	color: white;
+	font-size: var(--font-sm);
+	font-weight: 600;
+	width: 220px;
+	height: 65px;
+	border-radius: var(--border-radius);
+}
+
+.btn__answer--true{
+	background-color: var(--green);
+}
+
+.btn__answer--false{
+	background-color: var(--dark-red);
+}

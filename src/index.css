@@ -2,7 +2,9 @@
 @import url('./components/Quiz/quiz.css'); 
 @import url('./components/UI/Button/button.css');
 @import url('./components/Splash/splash.css');
+@import url('./components/Quiz/quiz.css');
 @import url('./components/UI/Typo/typography.css');
+@import url('./components/UI/Card/card.css');
 
 :root{
     --purple: #4618FF;

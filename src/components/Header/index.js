@@ -12,6 +12,8 @@ class Header extends Component{
 	}
 }
 
-const stateToProps = ({root}) => {}
+const stateToProps = ({state}) => ({
+	category: state.questions
+})
 
 export default connect(stateToProps, {})(Header)
