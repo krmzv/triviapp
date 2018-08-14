@@ -4,7 +4,7 @@
 
 .quiz{
     height: 60vh;
-    width: 70%;
+    width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;

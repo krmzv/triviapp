@@ -8,7 +8,7 @@ export function questions(state = [], action){
 		case SET_QUESTIONS:
 			return action.questions
 		case SET_ANSWER:
-			return [...state, state.find(x => indexOf(x) === action.idx ? Object.assign({}, ...state, { users_answer: action.answer }) : state)]
+			return state.map((q, idx) => idx === action.idx ? Object.assign({}, q, { users_answer: action.answer }) : state[idx])
 		case RESET_QS:
 			return []
 		default:

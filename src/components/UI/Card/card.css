@@ -1,17 +1,27 @@
 .card{
-    width: calc(100% - 80px);
+    width: calc(100% - 40px);
     background-color: transparent;
     margin-top: 40px;
 }
 
 .card__question{
-    height: 100px;
+    min-height: 100px;
+    max-height: 200px;
     border: 1px solid black;
     border-radius: var(--border-radius);
-    padding: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .question{
     font-size: var(--font-lg);
     font-weight: 600;
+}
+
+.card__header{
+    width: 80px;
+    font-weight: 500;
+    font-size: var(--font-sm);
+    padding-bottom: 20px;
 }
