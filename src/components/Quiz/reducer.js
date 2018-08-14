@@ -1,13 +1,13 @@
-export const SET_QUESTION = "SET_QUESTION"
+export const SET_QUESTIONS = "SET_QUESTIONS"
+export const RESET_QS = "RESET_QS"
 
 
-export function quiz(state = {}, action){
+export function questions(state = [], action){
 	switch(action.type){
-		case SET_QUESTION:
-			return {
-					...state,
-					q: action.question
-			}
+		case SET_QUESTIONS:
+			return [...state, action.questions]
+		case RESET_QS:
+			return []
 		default:
 			return state
 	}

@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Button = ({cn, text}) => (
-	<button className={cn}>
-	{ text }
+export const Button = ({cn, text, ...props}) => (
+	<button {...props} className={cn}>
+		{ text }
 	</button>
 )

@@ -1,0 +1,10 @@
+.container__splash{
+    height: 450px;
+    justify-content: space-between;
+}
+
+.btn-container{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}

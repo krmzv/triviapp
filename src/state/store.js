@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
-import state from './state';
+import state from './index';
 
 
 const composedMiddleware = [

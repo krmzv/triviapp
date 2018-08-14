@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import Pages from './pages'
-import configureStore from './store';
+import configureStore from './state/store';
 
 const store = configureStore(window.__INITIAL_STATE__ || {})
 

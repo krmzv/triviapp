@@ -4,9 +4,14 @@ import './wrapper.css'
 
 class Wrapper extends Component{
   render(){
+
+		const { cn } = this.props
+
+		const classNames=`container ${cn}`
+
 		return(
 			<div className='wrapper'>
-				<div className='container'>
+				<div className={classNames}>
 					<Header/>
 					{ this.props.children } 
 				</div>
