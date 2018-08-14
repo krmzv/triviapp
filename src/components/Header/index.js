@@ -6,7 +6,7 @@ class Header extends Component{
 	render(){
 		return(
 			<div className='header'>
-				Welcome to the Trivia Challenge!
+				🙌 Welcome to the Trivia Challenge!
 			</div>
 		)
 	}

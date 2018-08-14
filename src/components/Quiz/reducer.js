@@ -5,7 +5,7 @@ export const RESET_QS = "RESET_QS"
 export function questions(state = [], action){
 	switch(action.type){
 		case SET_QUESTIONS:
-			return [...state, action.questions]
+			return action.questions
 		case RESET_QS:
 			return []
 		default:
