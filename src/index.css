@@ -1,10 +1,20 @@
 @import url('./components/Wrapper/wrapper.css'); 
+@import url('./components/Quiz/quiz.css'); 
+@import url('./components/UI/Button/button.css');
+@import url('./components/Splash/splash.css');
+@import url('./components/UI/Typo/typography.css');
 
 :root{
     --purple: #4618FF;
     --green: #60efb8;
     --red: #ff5f5f;
     --dark-red: #fa4659;
+
+    --border-radius: 4px;
+
+    --font-sm: 14px;
+    --font-md: 18px;
+    --font-lg: 22px;
   }
   
   body {

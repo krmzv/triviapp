@@ -1,0 +1,26 @@
+.btn{
+	outline: none;
+	border: none;
+	min-width: 120px;
+	min-height: 45px;
+}
+
+.btn__mode{
+	cursor: pointer;
+	width: 220px;
+	height: 65px;
+	border-radius: var(--border-radius);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.btn__mode--easy{
+	border: 2px solid black;
+	color: black;
+}
+
+.btn__mode--hard{
+	border: none;
+	background-color: black;
+	color: white;
+}
