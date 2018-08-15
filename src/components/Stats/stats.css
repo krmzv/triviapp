@@ -1,4 +1,13 @@
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
+}
+
 .container__stats{
-    display: flex;
-    flex-direction: column;
+    padding-top: 150px;
+    height: auto;
+}
+
+.result{
+    padding-bottom: 40px;
 }

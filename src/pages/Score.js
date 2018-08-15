@@ -3,7 +3,7 @@ import Stats from '../components/Stats'
 import Wrapper from '../components/Wrapper'
 
 const Score = () => (
-    <Wrapper>
+    <Wrapper cn='container__stats'>
         <Stats/>
     </Wrapper>
 )

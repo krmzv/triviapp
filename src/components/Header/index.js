@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
+import { Button } from '../UI/Button'
 import { connect } from 'react-redux'
 import { idFromUrl, pageFromUrl, calcScore } from '../../utils/helpers'
 import './header.css'
@@ -23,6 +24,11 @@ class Header extends Component{
 		return(
 			<div className='header'>
 				{ renderTitle(pathname) }
+				{ pathname === '/score' ?
+					<Link to='/'>
+						<Button text='Play again?' className='btn btn__play'/>
+					</Link> : null
+				}
 			</div>
 		)
 	}

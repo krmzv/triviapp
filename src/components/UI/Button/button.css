@@ -42,3 +42,12 @@
 .btn__answer--false{
 	background-color: var(--dark-red);
 }
+
+.btn__play{
+	width: 120px;
+	height: 45px;
+	background-color: var(--green);
+	color: white;
+	font-size: var(--font-sm);
+	border-radius: var(--border-radius);
+}

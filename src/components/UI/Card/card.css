@@ -1,15 +1,15 @@
 .card{
     width: calc(100% - 40px);
+    padding: 20px;
     background-color: transparent;
-    margin-top: 40px;
 }
 
 .card__question{
+    margin-top: 40px;
     min-height: 100px;
     max-height: 200px;
     border: 0.5px solid rgba(0, 0, 0, .15);
     border-radius: var(--border-radius);
-    padding: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -24,4 +24,19 @@
     font-weight: 400;
     font-size: var(--font-sm);
     padding-bottom: 20px;
+}
+
+.card__score{
+    margin-top: 15px;
+    min-height: 60px;
+    width: 60%;
+    border-radius: var(--border-radius);
+}
+
+.card__score--correct{
+    border: 1px solid var(--green);
+}
+
+.card__score--wrong{
+    border: 1px solid var(--dark-red);
 }

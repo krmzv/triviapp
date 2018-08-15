@@ -1,5 +1,6 @@
 .container__splash{
-    height: 50vh;
+    padding-top: 150px;
+    height: 300px;
     justify-content: space-between;
 }
 
