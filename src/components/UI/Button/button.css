@@ -49,5 +49,6 @@
 	background-color: var(--green);
 	color: white;
 	font-size: var(--font-sm);
+	font-weight: 600;
 	border-radius: var(--border-radius);
 }
