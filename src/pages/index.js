@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import Wrapper from '../components/wrapper'
 import Splash from './Splash'
 import Quiz from './Quiz'
-import Stats from './Stats'
+import Score from './Score'
 
 class Pages extends Component { 
 	render(){
@@ -11,7 +11,7 @@ class Pages extends Component {
 				<Switch>
 					<Route exact path='/' component={Splash}/>
 					<Route path='/quiz/:q' component={Quiz}/>
-					<Route path='/stats' component={Stats}/>
+					<Route path='/score' component={Score}/>
 				</Switch>
 		)
 	}

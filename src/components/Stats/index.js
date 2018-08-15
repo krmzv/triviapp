@@ -2,16 +2,22 @@ import React, { Component } from 'react'
 import Wrapper from '../Wrapper'
 import { Card } from '../UI/Card'
 import { connect } from 'react-redux'
+import { calcScore } from '../../utils/helpers'
 
 class Stats extends Component{
+
 	render(){
 
 		const { qs } = this.props
 
+		const x = calcScore(qs)
+
+		console.log(x)
+
 		return(
-			<Wrapper cn='container__stats'>
+			<section className='result'>
 				{ qs.map((q, idx) => <Card q={q.question} a={q.users_answer} key={idx} />) }
-			</Wrapper>
+			</section>
 		)
 	}
 }
@@ -20,4 +26,4 @@ const stateToProps = ({state}) => ({
 	qs: state.questions
 })
 
-exeport default connect(stateToProps, {})(Stats)
+export default connect(stateToProps, {})(Stats)

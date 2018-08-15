@@ -1,10 +1,11 @@
 import React from 'react'
+import Stats from '../components/Stats'
 import Wrapper from '../components/Wrapper'
 
-const Stats = () => (
+const Score = () => (
     <Wrapper>
-        <h1>stats</h1>
+        <Stats/>
     </Wrapper>
 )
 
-export default Stats
+export default Score

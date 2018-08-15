@@ -40,7 +40,7 @@ class Quiz extends Component{
 		const q = current ? current.question : ''
 		const c = current ? current.category : ''
 
-		const buttonLink = this.state.end ? '/stats' : `/quiz/${questionID + 2}`
+		const buttonLink = this.state.end ? '/score' : `/quiz/${questionID + 2}`
 		
 		return(
 			<Wrapper cn='container__quiz'>
