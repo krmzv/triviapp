@@ -26,6 +26,7 @@
 }
 
 .btn__answer{
+	cursor: pointer;
 	color: white;
 	font-size: var(--font-sm);
 	font-weight: 600;

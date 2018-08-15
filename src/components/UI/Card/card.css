@@ -7,7 +7,7 @@
 .card__question{
     min-height: 100px;
     max-height: 200px;
-    border: 1px solid black;
+    border: 0.5px solid rgba(0, 0, 0, .15);
     border-radius: var(--border-radius);
     padding: 20px;
     display: flex;
@@ -20,8 +20,8 @@
 }
 
 .card__header{
-    width: 80px;
-    font-weight: 500;
+    width: 100%;
+    font-weight: 400;
     font-size: var(--font-sm);
     padding-bottom: 20px;
 }

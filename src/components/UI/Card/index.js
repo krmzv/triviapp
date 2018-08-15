@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const Card = ({q, qID, a = null, ...props}) => (
+export const Card = ({q, qID, a = null, c, ...props}) => (
 	<div {...props}>
 
 		<div className='card__header'>
-			{ `🤔 Q#${qID + 1}` }
+			{ c }
 		</div>
 
 		<span
