@@ -1,10 +1,13 @@
 .card{
+    box-sizing: content-box;
     width: calc(100% - 40px);
     padding: 20px;
     background-color: transparent;
 }
 
 .card__question{
+    -webkit-animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
+    animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
     margin-top: 40px;
     min-height: 100px;
     max-height: 200px;
@@ -39,4 +42,30 @@
 
 .card__score--wrong{
     border: 1px solid var(--dark-red);
+}
+
+.card-quiz{
+    transition: all 0.7s ease;
+}
+
+.card-quiz-enter {
+    opacity: 0.01;
+    width: 0px;
+}
+
+.card-quiz-enter.card-quiz-enter-active {
+    opacity: 1;
+    width: 100px;
+    transition: 700ms;
+}
+
+.card-quiz-leave {
+    opacity: 1;
+    width: 100px;
+}
+
+.card-quiz-leave.card-quiz-leave-active {
+    opacity: 0.01;
+    width: 0px;
+    transition: 700ms;
 }

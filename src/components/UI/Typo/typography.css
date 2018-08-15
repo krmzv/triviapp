@@ -6,6 +6,9 @@ h1 {
 
 .heading{
     margin-top: 40px;
+    -webkit-animation: slide-bottom 0.1s cubic-bezier(.57,.21,.69,1.25) both;
+    animation: slide-bottom 0.1s cubic-bezier(.57,.21,.69,1.25) both;
+    animation-delay: 0.05s;
 }
 
 span{

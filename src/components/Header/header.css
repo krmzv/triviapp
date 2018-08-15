@@ -1,5 +1,6 @@
 .header {
 	position: fixed;
+	z-index: 10;
 	top: 0;
 	margin: 0 auto;
 	width: 1024px;
@@ -11,4 +12,9 @@
 	font-weight: 700;
 	background-color: white;
 	border-bottom: 2px solid black;
+}
+
+.header span{
+	-webkit-animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
+    animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
 }

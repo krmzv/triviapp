@@ -16,11 +16,11 @@ class Stats extends Component{
 		return(
 			<section className='result'>
 				{ qs.map((q, idx) => <Card
-																c={isCorrect(q.correct_answer, q.users_answer) ? "✅" : "❌"} 
-																q={q.question}
-																a={q.users_answer}
-																key={idx}
-																className={isCorrect(q.correct_answer, q.users_answer) ? correctCn : wrongCn}/>)
+										c={isCorrect(q.correct_answer, q.users_answer) ? "✅" : "❌"} 
+										q={q.question}
+										a={q.users_answer}
+										key={idx}
+										className={isCorrect(q.correct_answer, q.users_answer) ? correctCn : wrongCn}/>)
 				}
 			</section>
 		)

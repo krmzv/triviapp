@@ -10,4 +10,6 @@
 
 .result{
     padding-bottom: 40px;
+    -webkit-animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
+    animation: slide-bottom 0.2s cubic-bezier(.22,.68,0,1.71) both;
 }

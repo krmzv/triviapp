@@ -8,6 +8,7 @@
     width: 50%;
     display: inline-flex;
     justify-content: space-between;
+    
 }
 
 .mode{
@@ -15,4 +16,7 @@
     flex-direction: column;
     height: 150px;
     justify-content: space-between;
+    -webkit-animation: slide-right 0.2s cubic-bezier(.22,.68,0,1.71) both;
+    animation: slide-right 0.2s cubic-bezier(.22,.68,0,1.71) both;
+    animation-delay: 0.2s;
 }

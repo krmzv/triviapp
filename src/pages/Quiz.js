@@ -46,7 +46,7 @@ class Quiz extends Component{
 			<Wrapper cn='container__quiz'>
 				{ isFetching ? <Loader/> : 
 					<div className='quiz slide-bottom'>
-
+		
 						<Card
 							className='card card__question'
 							qID={questionID}

@@ -19,6 +19,10 @@
 	color: black;
 }
 
+.btn__mode--easy:hover{
+	content: '⚠️'
+}
+
 .btn__mode--hard{
 	border: none;
 	background-color: black;
